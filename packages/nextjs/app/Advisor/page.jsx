@@ -83,6 +83,7 @@ const Defi = () => {
 
         console.log(requiredObjectForOpenAi);
         setCryptoPayloadData(requiredObjectForOpenAi);
+        setApiLoading(false)
       
       }
     } catch (e) {
@@ -93,6 +94,8 @@ const Defi = () => {
   }
 
   useEffect(() => {
+
+    
     const fetchData = async () => {
       setApiLoading(true);
       const tokenData = await runApp();
@@ -103,10 +106,12 @@ const Defi = () => {
 
     fetchData();
 
+    
     const timeout = setTimeout(() => {
       setLoading(false);
     }, 5000);
     return () => clearTimeout(timeout);
+
   }, []);
   const handleChat = async () => {
     const apiKey = process.env.NEXT_PUBLIC_OPENAPI_KEY;

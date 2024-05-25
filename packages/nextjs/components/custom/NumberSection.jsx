@@ -1,8 +1,8 @@
-import { useRouter } from "next/navigation";
-import React from "react";
+"use client";
+
+import React from "react"
 
 const NumberSection = () => {
-  const router = useRouter();
   return (
     <>
    <section className="text-gray-600 body-font">
@@ -14,8 +14,11 @@ const NumberSection = () => {
         </svg>
       </div>    
       <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-        <h2 className="text-gray-900 text-lg title-font font-medium mb-2 dark:text-neutral">Shooting Stars</h2>
-        <p className="leading-relaxed text-base dark:text-accent">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+        <h3 className="text-gray-900 text-3xl title-font font-medium mb-2 dark:text-neutral">
+       20000
+          
+          + Tokens</h3>
+        <p className="leading-relaxed text-base dark:text-white">Platform contains real time information of more than 20,000+ crypto currencies updated every second. </p>
         <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -25,9 +28,10 @@ const NumberSection = () => {
     </div>
     <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
       <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-        <h2 className="text-gray-900 text-lg title-font font-medium mb-2 dark:text-neutral">The Catalyzer</h2>
-        <p className="leading-relaxed text-base dark:text-accent">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-        <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
+        <h2 className="text-gray-900 text-3xl title-font font-medium mb-2 dark:text-neutral text-right">AI Based Advising Companion</h2>
+        <p className="leading-relaxed text-base  text-white text-right">
+         Get AI advise based on our owned trained smart Generative AI models .</p>
+        <a className="mt-3 text-indigo-500 inline-flex items-center text-right  justify-end w-full">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
@@ -49,8 +53,12 @@ const NumberSection = () => {
         </svg>
       </div>
       <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-        <h2 className="text-gray-900 text-lg title-font font-medium mb-2 dark:text-neutral">The 400 Blows</h2>
-        <p className="leading-relaxed text-base dark:text-accent">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+        <h2 className="text-gray-900 text-lg title-font font-medium mb-2 dark:text-white text-3xl">Swap Token !</h2>
+        <p className="leading-relaxed text-base dark:text-white">Swap your token without leaving your DeFi Companion, Powered by 
+         <span className=" animate-pulse text-5xl text-white ml-2 text-5xl  text-center font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent">
+           CoinEx.
+          </span>
+        </p>
         <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>

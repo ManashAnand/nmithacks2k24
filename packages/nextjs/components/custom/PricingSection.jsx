@@ -8,7 +8,7 @@ const PricingSection = () => {
           <div class="flex flex-col text-center w-full mb-20">
             <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 dark:dark:text-white text-[#2f2f2f] text-[#2f2f2f] ">Pricing</h1>
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base dark:dark:text-white text-[#2f2f2f] text-[#2f2f2f]">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.
+              We charge for what Matter The most.
             </p>
             <div class="flex mx-auto border-2 border-indigo-500 rounded overflow-hidden mt-6">
               <button class="py-1 px-4 bg-indigo-500 dark:text-white text-[#2f2f2f] focus:outline-none">Monthly</button>
@@ -34,7 +34,7 @@ const PricingSection = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  Vexillologist pitchfork
+                  Limited Companion Uses
                 </p>
                 <p class="flex items-center dark:text-white text-[#2f2f2f] mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white dark:text-white text-[#2f2f2f] rounded-full flex-shrink-0">
@@ -50,7 +50,7 @@ const PricingSection = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  Tumeric plaid portland
+                  Limited Token Swaps
                 </p>
                 <p class="flex items-center dark:text-white text-[#2f2f2f] mb-6">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white dark:text-white text-[#2f2f2f] rounded-full flex-shrink-0">
@@ -66,7 +66,7 @@ const PricingSection = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  Mixtape chillwave tumeric
+                  Slower Transaction
                 </p>
                 <button class="flex items-center mt-auto dark:text-white text-[#2f2f2f] bg-primary border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
                   Button
@@ -82,7 +82,7 @@ const PricingSection = () => {
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
                 </button>
-                <p class="text-xs dark:text-white text-[#2f2f2f] mt-3">Literally you probably haven't heard of them jean shorts.</p>
+                <p class="text-xs dark:text-white text-[#2f2f2f] mt-3">Limited Companion Uses</p>
               </div>
             </div>
             <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
@@ -109,7 +109,7 @@ const PricingSection = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  Vexillologist pitchfork
+                  Good for New Explorers
                 </p>
                 <p class="flex items-center dark:text-white text-[#2f2f2f] mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white dark:text-white text-[#2f2f2f] rounded-full flex-shrink-0">
@@ -125,7 +125,7 @@ const PricingSection = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  Tumeric plaid portland
+                  Limited 100  Companion Uses
                 </p>
                 <p class="flex items-center dark:text-white text-[#2f2f2f] mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white dark:text-white text-[#2f2f2f] rounded-full flex-shrink-0">
@@ -141,7 +141,9 @@ const PricingSection = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  Hexagon neutra unicorn
+                  Limited 100 Token Swaps
+
+
                 </p>
                 <p class="flex items-center dark:text-white text-[#2f2f2f] mb-6">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white dark:text-white text-[#2f2f2f] rounded-full flex-shrink-0">
@@ -157,7 +159,7 @@ const PricingSection = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  Mixtape chillwave tumeric
+                  2x Transaction
                 </p>
                 <button class="flex items-center mt-auto dark:text-white text-[#2f2f2f] bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">
                   Button
@@ -173,7 +175,7 @@ const PricingSection = () => {
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
                 </button>
-                <p class="text-xs dark:text-white text-[#2f2f2f] mt-3">Literally you probably haven't heard of them jean shorts.</p>
+                <p class="text-xs dark:text-white text-[#2f2f2f] mt-3">Good for new professional's.</p>
               </div>
             </div>
             <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
@@ -197,7 +199,7 @@ const PricingSection = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  Vexillologist pitchfork
+                  Good for New Startup's
                 </p>
                 <p class="flex items-center dark:text-white text-[#2f2f2f] mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white dark:text-white text-[#2f2f2f] rounded-full flex-shrink-0">
@@ -213,7 +215,7 @@ const PricingSection = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  Tumeric plaid portland
+                  Limited 1000 Companion Uses
                 </p>
                 <p class="flex items-center dark:text-white text-[#2f2f2f] mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white dark:text-white text-[#2f2f2f] rounded-full flex-shrink-0">
@@ -229,7 +231,7 @@ const PricingSection = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  Hexagon neutra unicorn
+                  Limited 1000 Token Swaps
                 </p>
                 <p class="flex items-center dark:text-white text-[#2f2f2f] mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white dark:text-white text-[#2f2f2f] rounded-full flex-shrink-0">
@@ -245,7 +247,7 @@ const PricingSection = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  Vexillologist pitchfork
+                  5x Transaction
                 </p>
                 <p class="flex items-center dark:text-white text-[#2f2f2f] mb-6">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white dark:text-white text-[#2f2f2f] rounded-full flex-shrink-0">
@@ -261,7 +263,7 @@ const PricingSection = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  Mixtape chillwave tumeric
+                  100 CoinEx Token's 
                 </p>
                 <button class="flex items-center mt-auto dark:text-white text-[#2f2f2f] bg-primary border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
                   Button
@@ -277,7 +279,9 @@ const PricingSection = () => {
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
                 </button>
-                <p class="text-xs dark:text-white text-[#2f2f2f]  mt-3">Literally you probably haven't heard of them jean shorts.</p>
+                <p class="text-xs dark:text-white text-[#2f2f2f]  mt-3">
+                Good for New Business.
+                  </p>
               </div>
             </div>
             <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
@@ -301,7 +305,7 @@ const PricingSection = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  Vexillologist pitchfork
+                  Good for MicroSoft, Google, Apple .
                 </p>
                 <p class="flex items-center dark:text-white text-[#2f2f2f] mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white dark:text-white text-[#2f2f2f] rounded-full flex-shrink-0">
@@ -317,7 +321,7 @@ const PricingSection = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  Tumeric plaid portland
+                  Unlimited Companion Uses
                 </p>
                 <p class="flex items-center dark:text-white text-[#2f2f2f] mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white dark:text-white text-[#2f2f2f] rounded-full flex-shrink-0">
@@ -333,7 +337,7 @@ const PricingSection = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  Hexagon neutra unicorn
+                  Unlimited  Token Swaps
                 </p>
                 <p class="flex items-center dark:text-white text-[#2f2f2f] mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white dark:text-white text-[#2f2f2f] rounded-full flex-shrink-0">
@@ -349,7 +353,7 @@ const PricingSection = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  Vexillologist pitchfork
+                  10x Transaction
                 </p>
                 <p class="flex items-center dark:text-white text-[#2f2f2f] mb-6">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white dark:text-white text-[#2f2f2f] rounded-full flex-shrink-0">
@@ -365,7 +369,7 @@ const PricingSection = () => {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  Mixtape chillwave tumeric
+                  LifeTime 24x7 CoinEx support
                 </p>
                 <button class="flex items-center mt-auto dark:text-white text-[#2f2f2f] bg-primary border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
                   Button
@@ -381,7 +385,8 @@ const PricingSection = () => {
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
                 </button>
-                <p class="text-xs dark:text-white text-[#2f2f2f] mt-3">Literally you probably haven't heard of them jean shorts.</p>
+                <p class="text-xs dark:text-white text-[#2f2f2f] mt-3">
+                  Good for Maang & OpenAI + other GenAi companies.</p>
               </div>
             </div>
           </div>

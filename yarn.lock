@@ -1089,6 +1089,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@layflags/rolling-number@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@layflags/rolling-number@npm:1.0.0"
+  checksum: b2fe90b7f74721b2e3744b00e1df251374388073568d1aed3ec419c95d0666ad5c04f41ed599c9461fe4955c9e6708eb79718224aa36cf069b23648b444a3ecd
+  languageName: node
+  linkType: hard
+
 "@lit-labs/ssr-dom-shim@npm:^1.0.0, @lit-labs/ssr-dom-shim@npm:^1.1.0, @lit-labs/ssr-dom-shim@npm:^1.2.0":
   version: 1.2.0
   resolution: "@lit-labs/ssr-dom-shim@npm:1.2.0"
@@ -13964,6 +13971,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "se-2@workspace:."
   dependencies:
+    "@layflags/rolling-number": ^1.0.0
     "@moralisweb3/common-evm-utils": ^2.26.2
     "@radix-ui/react-slot": ^1.0.2
     "@splinetool/react-spline": ^2.2.6
