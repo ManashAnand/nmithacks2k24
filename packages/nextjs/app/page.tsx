@@ -9,12 +9,14 @@ import {Button} from '../../../@/components/ui/button'
 import HeroSection from '../components/custom/HeroSection'
 import NumberSection from '../components/custom/NumberSection'
 import PricingSection from '../components/custom/PricingSection'
+import NavBar from "~~/components/componentsIntegrated/navbar";
 
 const Home: NextPage = () => {
-  const { address: connectedAddress } = useAccount();
+  // const { address: connectedAddress } = useAccount();
 
   return (
     <>
+       <NavBar/>
       <HeroSection/>
       <NumberSection/>
       <PricingSection/>

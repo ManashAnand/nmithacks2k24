@@ -32,6 +32,10 @@ export const menuLinks: HeaderMenuLink[] = [
     href: "/Trending",
   },
   {
+    label: "Bridge",
+    href: "/Bridge",
+  },
+  {
     label: "Debug Contracts",
     href: "/debug",
     icon: <BugAntIcon className="h-4 w-4" />,
@@ -114,8 +118,8 @@ export const Header = () => {
         </ul>
       </div>
       <div className="navbar-end flex-grow mr-4">
-        <RainbowKitCustomConnectButton />
-        <FaucetButton />
+        {/* <RainbowKitCustomConnectButton /> */}
+        {/* <FaucetButton /> */}
       </div>
     </div>
   );
