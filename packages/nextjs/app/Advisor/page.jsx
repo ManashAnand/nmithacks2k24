@@ -102,6 +102,11 @@ const Defi = () => {
     };
 
     fetchData();
+
+    const timeout = setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+    return () => clearTimeout(timeout);
   }, []);
   const handleChat = async () => {
     const apiKey = process.env.NEXT_PUBLIC_OPENAPI_KEY;
