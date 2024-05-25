@@ -39,13 +39,31 @@
     "usehooks-ts@^2.7.2": "patch:usehooks-ts@npm:^2.7.2#./.yarn/patches/usehooks-ts-npm-2.7.2-fceffe0e43.patch"
   },
   "devDependencies": {
+    "daisyui": "^4.11.1",
     "husky": "~8.0.3",
     "lint-staged": "~13.2.2",
     "next": "~14.0.4",
+    "tailwindcss": "^3.4.3",
     "vercel": "~32.4.1"
   },
   "packageManager": "yarn@3.2.3",
   "engines": {
     "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "@moralisweb3/common-evm-utils": "^2.26.2",
+    "@radix-ui/react-slot": "^1.0.2",
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "chart.js": "^4.4.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lottie-react": "^2.4.0",
+    "moralis": "^2.26.2",
+    "react-alice-carousel": "^2.9.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-scroll-to-top": "^3.0.0",
+    "react-scroll-up": "^1.4.0",
+    "tailwind-merge": "^2.3.0"
   }
 }
