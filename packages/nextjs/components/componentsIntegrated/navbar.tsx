@@ -26,7 +26,7 @@ export default function NavBar() {
             <span className="ml-3 text-xl text-white">Defi Companion</span>
           </div>
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"></nav>
-          <ConnectButton />
+          
         </div>
       </header>
     </>

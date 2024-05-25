@@ -6,17 +6,20 @@ import { EvmChain } from "@moralisweb3/common-evm-utils";
 import axios from "axios";
 import Moralis from "moralis";
 import useSWR from "swr";
-
+import loading from '../../components/assets/loading.json'
+import Lootie from "lottie-react";
 import ReactMarkdown from "react-markdown";
 
 const Defi = () => {
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
+  const [apiLoading,setApiLoading] = useState(false);
   const [chatHistory, setChatHistory] = useState([]);
   const [balance,setBalance] = useState("")
   const [symbol,setSymbol] = useState("");
   const [cryptoName,setCryptoName] = useState("")
   const [cryptoPayloadData,setCryptoPayloadData] = useState(null)
+
 
   // const fetcher = url => axios.get(url).then(res => res.data)
 
@@ -80,14 +83,18 @@ const Defi = () => {
 
         console.log(requiredObjectForOpenAi);
         setCryptoPayloadData(requiredObjectForOpenAi);
+      
       }
     } catch (e) {
       console.error('Error fetching crypto data:', e);
+    } finally{
+      setApiLoading(false)
     }
   }
 
   useEffect(() => {
     const fetchData = async () => {
+      setApiLoading(true);
       const tokenData = await runApp();
       if (tokenData) {
         await runSecondApiCall(tokenData);
@@ -141,6 +148,7 @@ const Defi = () => {
       setChatHistory(prevChatHistory => [...prevChatHistory, assistantMessage]);
 
       setMessage("");
+      setLoading(false);
     } catch (error) {
       console.error("Error:", error);
     } finally {
@@ -153,6 +161,9 @@ const Defi = () => {
     if (message.trim() === "") return;
     handleChat();
   };
+
+  
+  if(apiLoading) return <Loading/>
 
   return (
     <div className="w-full  md:p-10 p-2 flex  flex-col xl:flex-row max-h-[85vh] ">
@@ -222,6 +233,7 @@ const Defi = () => {
         </a>
       </div>
 
+
       <div className="w-[60rem] mx-auto p-4 flex flex-col h-[70vh] overflow-y-auto">
         <h1 className="text-2xl font-bold mb-4 text-primary">Defi Advisor</h1>
         <div className="flex-grow space-y-4 mb-4">
@@ -263,3 +275,12 @@ const Defi = () => {
 };
 
 export default Defi;
+
+const Loading = () => {
+  return(
+    <>
+      <Lootie animationData={loading}/>
+      {/* Loading... */}
+    </>
+  )
+}

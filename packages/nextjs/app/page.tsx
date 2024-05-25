@@ -24,7 +24,7 @@ const Home: NextPage = () => {
     </div>
     <div className="absolute top-14">
 
-        <NavBar />
+        {/* <NavBar /> */}
         <HeroSection />
     </div>
         <NumberSection />

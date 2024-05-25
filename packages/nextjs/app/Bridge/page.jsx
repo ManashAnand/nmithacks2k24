@@ -5,7 +5,7 @@ import Navbar from "../../components/componentsIntegrated/navbar";
 const BridgePage = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Bridge />
     </>
   );
