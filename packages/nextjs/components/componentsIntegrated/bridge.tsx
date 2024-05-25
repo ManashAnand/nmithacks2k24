@@ -136,7 +136,7 @@ export default function Bridge() {
       <div className="flex justify-center items-center h-screen">
         <div className="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 dark:bg-gray-800 dark:border-gray-700">
           <h5 className="mb-3 text-base font-semibold text-gray-900 md:text-xl dark:text-white">
-            Bridge
+            DEX
           </h5>
 
           <div>
@@ -238,7 +238,7 @@ export default function Bridge() {
             type="button"
             className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 mt-5 w-full"
           >
-            Bridge
+            Swap
           </button>
           <button
             onClick={handleRecoverSigner}

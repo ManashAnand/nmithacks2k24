@@ -32,7 +32,7 @@ export const menuLinks: HeaderMenuLink[] = [
     href: "/Trending",
   },
   {
-    label: "Bridge",
+    label: "DEX",
     href: "/Bridge",
   },
   {
