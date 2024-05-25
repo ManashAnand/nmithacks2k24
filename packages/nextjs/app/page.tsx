@@ -8,6 +8,7 @@ import { Address } from "~~/components/scaffold-eth";
 import {Button} from '../../../@/components/ui/button'
 import HeroSection from '../components/custom/HeroSection'
 import NumberSection from '../components/custom/NumberSection'
+import PricingSection from '../components/custom/PricingSection'
 
 const Home: NextPage = () => {
   const { address: connectedAddress } = useAccount();
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
     <>
       <HeroSection/>
       <NumberSection/>
+      <PricingSection/>
     </>
   );
 };
